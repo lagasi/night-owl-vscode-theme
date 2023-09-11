@@ -3,7 +3,6 @@
   "type": "dark",
   "semanticHighlighting": false,
   "colors": {
-    "contrastBorder": "#122d42",
     "focusBorder": "#122d42",
     "foreground": "#d6deeb",
     "widget.shadow": "#011627",
