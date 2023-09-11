@@ -456,7 +456,7 @@
       "scope": "keyword.operator",
       "settings": {
         "foreground": "#7fdbca",
-        "fontStyle": ""
+        "fontStyle": "italic"
       }
     },
     {
@@ -739,7 +739,7 @@
       ],
       "settings": {
         "foreground": "#c792ea",
-        "fontStyle": ""
+        "fontStyle": "italic"
       }
     },
     {
@@ -753,13 +753,6 @@
       ],
       "settings": {
         "foreground": "#7fdbca"
-      }
-    },
-    {
-      "name": "Support Function",
-      "scope": "support.function",
-      "settings": {
-        "foreground": "#c5e478"
       }
     },
     {
@@ -787,7 +780,8 @@
       "name": "Language Variable",
       "scope": "variable.language",
       "settings": {
-        "foreground": "#7fdbca"
+        "foreground": "#7fdbca",
+        "fontStyle": "italic"
       }
     },
     {
@@ -1210,7 +1204,8 @@
       "name": "JavaScript Method Declaration e.g. `constructor`",
       "scope": "meta.method.declaration storage.type.js",
       "settings": {
-        "foreground": "#82AAFF"
+        "foreground": "#82AAFF",
+        "fontStyle": "italic"
       }
     },
     {
@@ -1330,14 +1325,6 @@
       "scope": "meta.structure.dictionary.json meta.structure.dictionary.value constant.language",
       "settings": {
         "foreground": "#ff5874"
-      }
-    },
-    {
-      "name": "JavaScript Other Variable",
-      "scope": "variable.other.object.js",
-      "settings": {
-        "foreground": "#7fdbca",
-        "fontStyle": "italic"
       }
     },
     {
@@ -1768,34 +1755,8 @@
         "meta.method.declaration storage.type.tsx"
       ],
       "settings": {
-        "foreground": "#82AAFF"
-      }
-    },
-    {
-      "name": "normalize font style of certain components",
-      "scope": [
-        "meta.property-list.css meta.property-value.css variable.other.less",
-        "meta.property-list.scss variable.scss",
-        "meta.property-list.sass variable.sass",
-        "meta.brace",
-        "keyword.operator.operator",
-        "keyword.operator.or.regexp",
-        "keyword.operator.expression.in",
-        "keyword.operator.relational",
-        "keyword.operator.assignment",
-        "keyword.operator.comparison",
-        "keyword.operator.type",
-        "keyword.operator",
-        "keyword",
-        "punctuation.definintion.string",
-        "punctuation",
-        "variable.other.readwrite.js",
-        "storage.type",
-        "source.css",
-        "string.quoted"
-      ],
-      "settings": {
-        "fontStyle": ""
+        "foreground": "#82AAFF",
+        "fontStyle": "italic"
       }
     }
   ]
