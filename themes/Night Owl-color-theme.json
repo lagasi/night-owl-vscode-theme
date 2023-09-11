@@ -329,15 +329,15 @@
         "storage.type.property.tsx"
       ],
       "settings": {
-        "foreground": "#c792ea",
-        "fontStyle": "italic"
+        "foreground": "#c792ea"
       }
     },
     {
       "name": "Storage type",
       "scope": "storage.type",
       "settings": {
-        "foreground": "#c792ea"
+        "foreground": "#c792ea",
+        "fontStyle": "italic"
       }
     },
     {
@@ -366,7 +366,6 @@
       "scope": "entity.name.function",
       "settings": {
         "foreground": "#c792ea",
-        "fontStyle": "italic"
       }
     },
     {
@@ -685,8 +684,7 @@
       "name": "Variable Property Other object property",
       "scope": ["variable.other.object.property"],
       "settings": {
-        "foreground": "#faf39f",
-        "fontStyle": "italic"
+        "foreground": "#baebe2"
       }
     },
     {
@@ -700,8 +698,7 @@
       "name": "Entity Name Function",
       "scope": ["entity.name.function"],
       "settings": {
-        "foreground": "#82AAFF",
-        "fontStyle": "italic"
+        "foreground": "#82AAFF"
       }
     },
     {
