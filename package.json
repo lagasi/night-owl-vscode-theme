@@ -1,26 +1,24 @@
 {
-  "name": "night-owl",
-  "displayName": "Night Owl",
-  "description": "A VS Code theme for the night owls out there. Now introducing Light Owl theme for daytime usage. Decisions were based on meaningful contrast for reading comprehension and for optimal razzle dazzle. ✨",
-  "version": "2.0.1",
-  "publisher": "sdras",
+  "name": "night-owl-x",
+  "displayName": "Night Owl X",
+  "description": "A VS Code theme for the night owls out there.",
+  "version": "1.0.0",
+  "publisher": "lagasi",
   "license": "SEE LICENSE IN LICENSE.md",
   "repository": {
     "type": "git",
-    "url": "https://github.com/sdras/night-owl-vscode-theme"
+    "url": "https://github.com/lagasi/night-owl-vscode-theme"
   },
   "keywords": [
     "Theme",
     "Dark Theme",
-    "Light Theme",
     "Night Owl",
-    "Night Theme",
-    "Light Owl",
-    "Snow Owl",
-    "Early Bird",
-    "Accessible Theme"
+    "Night Theme"
   ],
   "scripts": {
+    "build": "vsce package -o night-owl-x.vsix",
+    "install": "code --install-extension night-owl-x.vsix",
+    "bi": "npm run build && npm run install",
     "publish": "vsce publish"
   },
   "galleryBanner": {
@@ -28,7 +26,7 @@
     "theme": "dark"
   },
   "engines": {
-    "vscode": "^1.17.0"
+    "vscode": "^1.82.0"
   },
   "categories": [
     "Themes"
@@ -37,24 +35,9 @@
   "contributes": {
     "themes": [
       {
-        "label": "Night Owl",
+        "label": "Night Owl X",
         "uiTheme": "vs-dark",
         "path": "./themes/Night Owl-color-theme.json"
-      },
-      {
-        "label": "Night Owl (No Italics)",
-        "uiTheme": "vs-dark",
-        "path": "./themes/Night Owl-color-theme-noitalic.json"
-      },
-      {
-        "label": "Night Owl Light",
-        "uiTheme": "vs",
-        "path": "./themes/Night Owl-Light-color-theme.json"
-      },
-      {
-        "label": "Night Owl Light (No Italics)",
-        "uiTheme": "vs",
-        "path": "./themes/Night Owl-Light-color-theme-noitalic.json"
       }
     ]
   }
