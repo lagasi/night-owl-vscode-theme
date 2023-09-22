@@ -332,7 +332,7 @@
     },
     {
       "name": "Storage type",
-      "scope": "storage.type",
+      "scope": ["storage.type", "storage.modifier", "keyword.operator.noexcept"],
       "settings": {
         "foreground": "#c792ea",
         "fontStyle": "italic"
